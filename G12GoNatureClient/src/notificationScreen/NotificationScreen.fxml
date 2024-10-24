@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="421.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="notificationScreen.NotificationController">
+   <children>
+      <Pane prefHeight="670.0" prefWidth="410.0" VBox.vgrow="ALWAYS">
+         <children>
+            <ImageView fitHeight="670.0" fitWidth="388.0" layoutX="17.0" pickOnBounds="true">
+               <image>
+                  <Image url="@iphoneframe.jpeg" />
+               </image>
+            </ImageView>
+            <Text layoutX="77.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Simulation: SMS Message" wrappingWidth="233.59527587890625">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="69.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reciever:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextField fx:id="phonenumber" editable="false" layoutX="134.0" layoutY="129.0" prefHeight="25.0" prefWidth="179.0" />
+            <Text layoutX="68.0" layoutY="202.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Message:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Text>
+            <TextArea fx:id="messagetext" editable="false" layoutX="64.0" layoutY="220.0" prefHeight="188.0" prefWidth="303.0" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

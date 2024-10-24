@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="972.0" prefWidth="1165.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DevisionMangerDashboard.VisitReportController">
+   <children>
+      <Text layoutX="570.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Visit report" wrappingWidth="266.150577545166">
+         <font>
+            <Font name="Tahoma Bold" size="29.0" />
+         </font>
+      </Text>
+      <Pane layoutX="36.0" layoutY="355.0" prefHeight="314.0" prefWidth="245.0" style="-fx-background-color: lightblue;">
+         <children>
+            <Text layoutX="12.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details:" wrappingWidth="77.48971939086914">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="phoneText" layoutX="26.0" layoutY="89.0" strokeType="OUTSIDE" strokeWidth="0.0" text="052*******" wrappingWidth="151.0">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="23.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="idText" layoutX="23.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1234" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="26.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Telephone:" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text layoutX="23.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email:" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Text>
+            <Text fx:id="emailText" layoutX="23.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\@gmail.com" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Text>
+         </children>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Pane>
+      <Pane layoutX="36.0" layoutY="30.0" prefHeight="273.0" prefWidth="245.0" style="-fx-background-color: lightgreen;">
+         <children>
+            <Text fx:id="nameText" layoutX="37.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name" wrappingWidth="98.35925674438477">
+               <font>
+                  <Font name="Tahoma Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text fx:id="lastNameText" layoutX="123.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="lastname" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="24.0" />
+               </font>
+            </Text>
+            <Text layoutX="57.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="dvision Manager" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="151.0" fitWidth="169.0" layoutX="45.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../ParkManagerDashboard/kisspng-the-noun-project-computer-icons-oklahoma-syrma-tec-operatives-medium-5ccaddf90a5f28.3456741715567989690425.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Pane>
+      <Pane layoutX="392.0" layoutY="895.0" prefHeight="51.0" prefWidth="552.0" style="-fx-background-color: lightgreen;">
+         <children>
+            <Text layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="red = private" wrappingWidth="98.35925674438477">
+               <font>
+                  <Font name="Tahoma Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="213.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yellow = family" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="12.0" />
+               </font>
+            </Text>
+            <Text layoutX="411.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="green = organized" wrappingWidth="126.74188613891602">
+               <font>
+                  <Font name="Tahoma Bold" size="12.0" />
+               </font>
+            </Text>
+         </children>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Pane>
+      <Label layoutX="377.0" layoutY="86.0" prefHeight="23.0" prefWidth="77.0" text="Private">
+         <font>
+            <Font name="Tahoma Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="759.0" layoutY="86.0" prefHeight="23.0" prefWidth="77.0" text="Family">
+         <font>
+            <Font name="Tahoma Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="383.0" prefHeight="23.0" prefWidth="98.0" text="Organized">
+         <font>
+            <Font name="Tahoma Bold" size="18.0" />
+         </font>
+      </Label>
+      <PieChart fx:id="private_enteryTime" layoutX="309.0" layoutY="118.0" prefHeight="204.0" prefWidth="214.0" />
+      <PieChart fx:id="Family_enteryTime" layoutX="682.0" layoutY="118.0" prefHeight="204.0" prefWidth="214.0" />
+      <PieChart fx:id="Organized_enteryTime" layoutX="309.0" layoutY="422.0" prefHeight="204.0" prefWidth="214.0" />
+      <Label layoutX="685.0" layoutY="383.0" prefHeight="23.0" prefWidth="208.0" text="Total Duration Time">
+         <font>
+            <Font name="Tahoma Bold" size="18.0" />
+         </font>
+      </Label>
+      <PieChart fx:id="total_duration" layoutX="682.0" layoutY="422.0" prefHeight="204.0" prefWidth="214.0" />
+      <Text layoutX="935.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date:" wrappingWidth="59.88971328735357">
+         <font>
+            <Font name="Tahoma Bold" size="17.0" />
+         </font>
+      </Text>
+      <Text fx:id="report_dateText" layoutX="985.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="151.0">
+         <font>
+            <Font name="Tahoma Bold" size="17.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
