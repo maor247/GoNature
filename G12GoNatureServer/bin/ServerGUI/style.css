@@ -1,0 +1,65 @@
+/* style.css */
+
+/* Style the VBox */
+VBox {
+	-fx-alignment: center;
+	-fx-background-color: lightblue;
+	-fx-spacing: 5px;
+    -fx-padding: 5px;
+}
+
+#fields_and_logo {
+	-fx-spacing: 10px;
+}
+
+/* Style the HBox */
+HBox {
+	-fx-alignment: center;
+	-fx-spacing: 5px;
+    -fx-padding: 5px;
+}
+
+/* Style the ScrollPane */
+ScrollPane {
+	-fx-pref-height: 150px;
+}
+
+#buttons {
+	-fx-spacing: 40px;
+}
+
+/* Style the GridPane */
+GridPane {
+	-fx-spacing: 5px;
+}
+
+/* Style the Text */
+Text {
+    -fx-font-size: 11px;
+}
+
+/* Style the TextField */
+TextField {
+    -fx-pref-width: 150px;
+}
+
+/* Style the PasswordField */
+PasswordField {
+    -fx-pref-width: 150px;
+}
+
+/* Style the TableView */
+TableView {
+    -fx-pref-height: 200px;
+    -fx-pref-width: 300px;
+}
+
+/* Style the TableColumn */
+TableColumn {
+    -fx-pref-width: 100px;
+}
+
+/* Style the Button */
+Button {
+    -fx-pref-width: 100px;
+}
