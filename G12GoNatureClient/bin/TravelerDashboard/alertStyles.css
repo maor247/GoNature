@@ -1,0 +1,20 @@
+
+.button {
+    -fx-text-fill: white;
+}
+
+#continueButton {
+    -fx-background-color: green;
+}
+
+#abortButton {
+    -fx-background-color: red;
+}
+
+#continueButton:pressed {
+    -fx-background-color: darkgreen;
+}
+
+#abortButton:pressed {
+    -fx-background-color: darkred;
+}
